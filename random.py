@@ -20,7 +20,7 @@ def my_bot_random(): # выдает случайное число в интер�
     file.close()
     return(list[int(index_res)])
 print('Ваше число:' + my_bot_random())
- 
+#print([my_bot_random()])
     
     
 

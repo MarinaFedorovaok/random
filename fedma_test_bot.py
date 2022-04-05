@@ -1,6 +1,7 @@
 import telebot
+import bot_id
 
-bot = telebot.TeleBot("5194267730:AAGkpss1bUcufm7GHyfG5yARclQskKXu938")
+bot = telebot.TeleBot(bot_id.id)
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
     print("user wrote: ", message)
